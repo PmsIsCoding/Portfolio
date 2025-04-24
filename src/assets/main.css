@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vintura";
+}
+body{
+  overflow-x: hidden;
+  background-image: url(fond_portfolio.png);
+  background-size: cover;
+  position: relative;
+}
+
+@font-face {
+  font-family: "vintura";
+  src: url(Vintura-Regular.ttf);
+}
