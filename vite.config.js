@@ -11,6 +11,10 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  build: {
+    outDir: 'dist',
+    assetsDir: './'  // Pour que les assets soient servis depuis la racine
+  },
   resolve: {
     alias: {
       'vue': 'vue/dist/vue.esm-bundler.js',
